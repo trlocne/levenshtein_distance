@@ -36,7 +36,7 @@ def levenshtein_distance(str1, str2):
 
 # def main():
 st.title("Word Correction using Levenshtein Distance")
-word = st.text_input('Word:')
+word = st.text_input('Word:').lower()
 
 if st.button("Compute"):
     # compute levenshtein Distance
